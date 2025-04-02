@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אטלס מדינות | Atlas</title>
+    <link rel="stylesheet" href="file/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <script defer type="module" src="file/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="חפש מדינה...">
+            <button id="searchButton">חפש</button>
+        </div>
+    </header>
+    <main>
+        <div id="countries-grid"></div>
+    </main>
+
+    <!-- דף פרטי מדינה -->
+    <div id="country-page" class="hidden">
+        <button id="backButton" class="back-button">חזור לרשימת המדינות</button>
+        <div id="countryDetails">
+            <div class="country-header"></div>
+            <div class="country-data"></div>
+            <div class="map-container">
+                <h3>מפת המדינה</h3>
+                <div class="map-buttons"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
